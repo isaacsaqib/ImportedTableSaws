@@ -51,7 +51,7 @@
     </ol>
     <div class="carousel-inner">
       <div class="item active">
-        <img src="assets/machine.jpg" class="img-responsive">
+        <%= image_tag "machine.jpg", :class => "img-responsive" %>
         <div class="container">
           <div class="carousel-caption">
             <h1>Budget Friendly Machine Importer</h1>
@@ -62,7 +62,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="assets/images/machine2.jpg" class="img-responsive">
+        <%= image_tag "machine2.jpg", :class => "img-responsive" %>
         <div class="container">
           <div class="carousel-caption">
             <h1>60,000 Square Foot Warehouse</h1>
@@ -72,7 +72,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="assets/machine3.jpg" class="img-responsive">
+        <%= image_tag "machine3.jpg", :class => "img-responsive" %>
         <div class="container">
           <div class="carousel-caption">
             <h1>$6,999</h1>
@@ -105,7 +105,8 @@
   <hr class="featurette-divider">
 
   <div id="f1" class="featurette">
-    <img id="machine_f1" class="featurette-image img-circle pull-right" src="assets/machineboy.jpg">
+
+    <%= image_tag "machineboy.jpg", { :id => "machine_f1", :class => "featurette-image img-circle pull-right" } %>
     <h2 class="featurette-heading">Always™<span class="text-muted"><br>MJ6132J</span></h2>
     <p class="lead">The machine comes with a 12” blade but will take a 14” blade without modification and turns on a 1” arbor. A 1 hp scoring blade is also standard.    </p>
   </div>
@@ -113,7 +114,7 @@
   <hr class="featurette-divider">
 
   <div id="f2" class="featurette">
-    <img id="machine_f2" class="featurette-image img-circle pull-left" src="assets/machine.jpg">
+    <%= image_tag "machine.jpg", { :id => "machine_f2", :class => "featurette-image img-circle pull-left" } %>
     <h2 class="featurette-heading"> Budget Friendly. <span class="text-muted"><br>Only $6,999.</span></h2>
     <p class="lead">Top of the line machinery. Excellent use for many shops or warehouses that deal with wood.</p>
   </div>
@@ -121,7 +122,8 @@
   <hr class="featurette-divider">
 
   <div class="featurette">
-    <img id="machine_f3" class="featurette-image img-circle pull-right" src="assets/machine3.jpg">
+
+    <%= image_tag "machine3.jpg", { :id => "machine_f3", :class => "featurette-image img-circle pull-right" } %>
     <h2 class="featurette-heading">Located  at 4290 1st Ave Brooklyn, NY 11232. <span class="text-muted"></span></h2>
     <p class="lead">Please contact Aresh at <br> 631 885 3300.</p>
   </div>
