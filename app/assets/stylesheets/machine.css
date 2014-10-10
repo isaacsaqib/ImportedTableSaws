@@ -1,7 +1,5 @@
 body {
-  background-image: url('garage_back.jpeg');
-  /*background-position: center;*/
-
+  background-image: url("garage_back.jpeg");
   background-repeat: no-repeat;
   background-size: 1510px 800px;
 
